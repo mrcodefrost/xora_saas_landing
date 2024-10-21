@@ -1,8 +1,7 @@
 import React from 'react';
-
-import './App.css'
 import Header from './sections/Header';
 import Hero from './sections/Hero';
+import Features from './sections/Features';
 
 const App = () => {
   return (
@@ -10,6 +9,7 @@ const App = () => {
       {/* overflow-hidden will hide the scroll bar */}
       <Header/>
       <Hero/>
+      <Features/>
     </main>
   )
 }
